@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEATH TRAP | That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="deathtrap.css">
+
+    <!-- Google Fonts: Orbitron for logos/titles, Share Tech Mono for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome CDN for navbar icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+    <!-- PARTICLES -->
+    <div class="particle-wrapper"></div>
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 200; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+    <!-- ALBUM SECTION -->
+    <section class="album-section">
+        <div class="album-info">
+            <img src="deathtrapcover.jpg" alt="Death Trap Album Cover" class="album-cover">
+            <div class="album-details">
+                <p class="album-label">Album</p>
+                <h1 class="album-title">DEATH TRAP</h1>
+                <p class="album-meta">That_Vegan_Dog • 2025 • 15 poems</p>
+            </div>
+        </div>
+
+        <div class="tracklist">
+            <div class="track" onclick="window.location='track1.html'">
+                <span class="track-number">1</span>
+                <div class="track-info">
+                    <p class="track-title">THE VINDICATION</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">2</span>
+            </div>
+
+            <div class="track" onclick="window.location='track2.html'">
+                <span class="track-number">2</span>
+                <div class="track-info">
+                    <p class="track-title">TAKE THAT</p>
+                    <p class="track-artist">That_Vegan_Dog <img src="explicit-icon.png" class="explicit-icon"></p>
+                </div>
+                <span class="track-verses">4</span>
+            </div>
+
+            <div class="track" onclick="window.location='track3.html'">
+                <span class="track-number">3</span>
+                <div class="track-info">
+                    <p class="track-title">MIRROR</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">4</span>
+            </div>
+
+            <div class="track" onclick="window.location='track4.html'">
+                <span class="track-number">4</span>
+                <div class="track-info">
+                    <p class="track-title">DEATH TRAP</p>
+                    <p class="track-artist">That_Vegan_Dog <img src="explicit-icon.png" class="explicit-icon"></p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+
+            <div class="track" onclick="window.location='track5.html'">
+                <span class="track-number">5</span>
+                <div class="track-info">
+                    <p class="track-title">THROUGH IT ALL</p>
+                    <p class="track-artist">That_Vegan_Dog <img src="explicit-icon.png" class="explicit-icon"></p>
+                </div>
+                <span class="track-verses">6</span>
+            </div>
+
+            <div class="track" onclick="window.location='track6.html'">
+                <span class="track-number">6</span>
+                <div class="track-info">
+                    <p class="track-title">NEGATIVE</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+
+            <div class="track" onclick="window.location='track7.html'">
+                <span class="track-number">7</span>
+                <div class="track-info">
+                    <p class="track-title">DISAGREEMENT</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">4</span>
+            </div>
+
+            <div class="track" onclick="window.location='track8.html'">
+                <span class="track-number">8</span>
+                <div class="track-info">
+                    <p class="track-title">SUFFER</p>
+                    <p class="track-artist">That_Vegan_Dog <img src="explicit-icon.png" class="explicit-icon"></p>
+                </div>
+                <span class="track-verses">4</span>
+            </div>
+
+            <div class="track" onclick="window.location='track9.html'">
+                <span class="track-number">9</span>
+                <div class="track-info">
+                    <p class="track-title">VOICES</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+
+            <div class="track" onclick="window.location='track10.html'">
+                <span class="track-number">10</span>
+                <div class="track-info">
+                    <p class="track-title">CHANGE</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">4</span>
+            </div>
+
+            <div class="track" onclick="window.location='track11.html'">
+                <span class="track-number">11</span>
+                <div class="track-info">
+                    <p class="track-title">EMANCIPATION</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+
+            <div class="track" onclick="window.location='track12.html'">
+                <span class="track-number">12</span>
+                <div class="track-info">
+                    <p class="track-title">DISTURBED</p>
+                    <p class="track-artist">That_Vegan_Dog <img src="explicit-icon.png" class="explicit-icon"></p>
+                </div>
+                <span class="track-verses">5</span>
+            </div>
+
+            <div class="track" onclick="window.location='track13.html'">
+                <span class="track-number">13</span>
+                <div class="track-info">
+                    <p class="track-title">COLLAPSE</p>
+                    <p class="track-artist">That_Vegan_Dog </p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+
+            <div class="track" onclick="window.location='track14.html'">
+                <span class="track-number">14</span>
+                <div class="track-info">
+                    <p class="track-title">MORSE CODE</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">1</span>
+            </div>
+            <div class="track" onclick="window.location='track15.html'">
+                <span class="track-number">15</span>
+                <div class="track-info">
+                    <p class="track-title">OTHER SIDE</p>
+                    <p class="track-artist">That_Vegan_Dog</p>
+                </div>
+                <span class="track-verses">5</span>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="site-footer">
+        <p>© 2025 That_Vegan_Dog</p>
+    </footer>
+
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUFFER | DEATH TRAP | That_Vegan_Dog</title>
+    <link rel="stylesheet" href="poems.css">
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- PARTICLES -->
+    <div class="particle-wrapper"></div>
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 200; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+    <!-- ALBUM IMAGE (same as Death Trap) -->
+    <div class="album-info">
+        <img src="deathtrapcover.jpg" alt="Death Trap Album Cover" class="album-cover">
+        <div class="album-details">
+            <p class="album-label">DEATH TRAP</p>
+            <h1 class="album-title">SUFFER</h1>
+            <p class="album-meta">That_Vegan_Dog • 2025 </p>
+        </div>
+    </div>
+
+    <!-- TRACK 1 INFO + VERSES -->
+    <div class="track1-content">
+        <p class="track1-title">SUFFER</p>
+        <div class="collective-verses">
+            <p class="verse1">Trouble, turning its back right upon me <br>
+                Where do I go when everyone wants to stop me <br>
+                Drag by a chain, all these thoughts have me pale <br>
+                But I’m sure everytime this fucked fate has fought me
+                <br>
+
+            </p>
+            <p class="verse">Sorry, this was far from the cry <br>
+                Why’d I deny when I didn’t even try <br>
+                Know it seems ugly when you are in depths of shame <br>
+                But I lie because I know I don’t want to fail
+                <br>
+            </p>
+            <p class="verse">Everywhere that I look, nothing hooks but I see <br>
+                I’m down in the dark, everyone’s up and free <br>
+                All I hear when it breaks, echoes of a scream <br>
+                It’s the same all around, nothing left for me to be
+                <br>
+            </p>
+            <p class="verse">Snow closes in but it isn’t even over <br>
+                No one sees the end but it views me as closer <br>
+                Broken shovel, hands, laughs, just like the others <br>
+                No going back, we’ll be this forever <br>
+                We’lll suffer
+
+
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER: SAME AS DEATHTRAP -->
+    <footer class="site-footer">
+        <p>© 2025 That_Vegan_Dog</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

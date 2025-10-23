@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRROR | DEATH TRAP | That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="poems.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- PARTICLES -->
+    <div class="particle-wrapper"></div>
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 200; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+    <!-- ALBUM IMAGE (same as Death Trap) -->
+    <div class="album-info">
+        <img src="deathtrapcover.jpg" alt="Death Trap Album Cover" class="album-cover">
+        <div class="album-details">
+            <p class="album-label">DEATH TRAP</p>
+            <h1 class="album-title">MIRROR</h1>
+            <p class="album-meta">That_Vegan_Dog • 2025 </p>
+        </div>
+    </div>
+
+    <!-- TRACK 1 INFO + VERSES -->
+    <div class="track1-content">
+        <p class="track1-title">MIRROR</p>
+        <div class="collective-verses">
+            <p class="verse1">Don’t pray, don’t say, it’s our time to disappear <br>
+                As clear, all the cheers, but a face interferes <br>
+                In the mirror, alI I know, all those who’re on <br>
+                Out to stroll, sight, chase, snap, and he is gone
+                <br>
+
+            </p>
+            <p class="verse">From where, why, and when you look in the eye <br>
+                Just try, one while, and I think it a lie <br>
+                Better die, till the time your hands are clean <br>
+                It’s a dream, but it’s then that I hear a scream
+                <br>
+            </p>
+            <p class="verse">Another victim, optimism, when he is alone <br>
+                Monotone, in the head, pouring out of the soul <br>
+                Like a dark cloud, in a sky full of light <br>
+                Shutdown, as true, as black as the night
+                <br>
+            </p>
+            <p class="verse">In the end all he leaves is a piece of his cruel <br>
+                How new, how few, left right in the blue <br>
+                Through sin, flew thin, as whole as a line <br>
+                Streets flood with red left right to shine <br>
+                <br>
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER: SAME AS DEATHTRAP -->
+    <footer class="site-footer">
+        <p>© 2025 That_Vegan_Dog</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

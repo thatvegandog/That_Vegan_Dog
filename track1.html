@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE VINDICATION | DEATH TRAP | That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="poems.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- PARTICLES -->
+    <div class="particle-wrapper"></div>
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 200; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+    <!-- ALBUM IMAGE (same as Death Trap) -->
+    <div class="album-info">
+        <img src="deathtrapcover.jpg" alt="Death Trap Album Cover" class="album-cover">
+        <div class="album-details">
+            <p class="album-label">DEATH TRAP</p>
+            <h1 class="album-title">THE VINDICATION</h1>
+            <p class="album-meta">That_Vegan_Dog • 2025 </p>
+        </div>
+    </div>
+
+    <!-- TRACK 1 INFO + VERSES -->
+    <div class="track1-content">
+        <p class="track1-title">THE VINDICATION</p>
+        <div class="collective-verses">
+            <p class="verse1">‘As the different streams <br> having their sources in different places <br>all mingle
+                their water
+                in the sea, <br> so, O Lord, <br> the different paths which men take <br> through different
+                tendencies,<br> various though
+                they appear,<br> crooked or straight, <br>all lead to Thee.’
+            </p>
+            <p class="verse">"आकाशात् पतितं तोयं सागरं प्रतिगच्छति”</p>
+        </div>
+    </div>
+
+    <!-- FOOTER: SAME AS DEATHTRAP -->
+    <footer class="site-footer">
+        <p>© 2025 That_Vegan_Dog</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for futuristic vibe -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Icons CDN for navbar icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Particle background -->
+    <div class="particle-wrapper"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="#"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+    <!-- ALBUM SECTION -->
+    <section class="album-section">
+        <!-- Neon Side Effects -->
+        <div class="neon-side left"></div>
+        <div class="neon-side right"></div>
+
+        <div class="album-wrapper">
+            <img src="That_Vegan_Dog.avif" alt="DEATH TRAP album cover" class="album-cover">
+        </div>
+
+    </section>
+
+
+    <!-- Zigzag divider -->
+    <div class="zigzag-divider">
+        <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path
+                d="M0,150 C120,80 240,150 360,90 C480,30 600,150 720,70 C840,-10 960,150 1080,60 C1200,-30 1320,150 1440,90 L1440,150 L0,150 Z"
+                fill="rgba(0,0,0,0.4)"></path>
+        </svg>
+    </div>
+
+    <!-- QUOTES SECTION -->
+    <section class="quotes-section">
+        <div class="quote slide-right">"EMANCIPATION”</div>
+        <div class="quote slide-left">"THE VINDICATION”</div>
+        <div class="quote slide-right">"MORSE CODE”</div>
+    </section>
+
+    <!-- Footer Divider -->
+    <div class="footer-divider">
+        <svg viewBox="0 0 1440 150" preserveAspectRatio="none">
+            <path
+                d="M0,150 C120,80 240,150 360,90 C480,30 600,150 720,70 C840,-10 960,150 1080,60 C1200,-30 1320,150 1440,90 V0 H0 Z"
+                fill="rgba(0,0,0,0.4)"></path>
+        </svg>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-glyph glitch">☍</div>
+            <p class="footer-legacy"><span class="timestamp">19.10.2025</span></p>
+            <p class="footer-note">Fuck you genius, you're a fool who looks around for sin</p>
+            <p class="footer-copyright">© That_Vegan_Dog</p>
+        </div>
+    </footer>
+
+
+    <!-- PARTICLE SCRIPT -->
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 240; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+</body>
+
+</html>

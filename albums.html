@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALBUMS | That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="albums.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- PARTICLE BACKGROUND -->
+    <div class="particle-wrapper"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+    <!-- ALBUMS HEADING -->
+    <section class="albums-page">
+        <h1>ALBUMS</h1>
+
+        <!-- ALBUM GRID -->
+        <div class="album-grid">
+            <!-- DEATH TRAP album -->
+            <div class="album-wrapper">
+                <a href="deathtrap.html">
+                    <img src="deathtrapcover.jpg" alt="DEATH TRAP Album Cover" class="album-cover">
+                </a>
+                <div class="album-overlay">
+                    <h2 class="album-title">DEATH TRAP</h2>
+                    <h3 class="album-year">2025</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-glyph glitch">☍</div>
+            <p class="footer-copyright">© That_Vegan_Dog</p>
+        </div>
+    </footer>
+
+    <!-- PARTICLES SCRIPT -->
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 240; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+</body>
+
+</html>

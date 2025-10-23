@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTHER SIDE | DEATH TRAP | That_Vegan_Dog</title>
+    <link rel="icon" href="deathtrapcover.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="poems.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="futuristic-nav">
+        <div class="logo">☍ TVD</div>
+        <ul class="nav-links">
+            <li><a href="index.html"><i class="fas fa-home"></i> HOME</a></li>
+            <li><a href="albums.html"><i class="fas fa-compact-disc"></i> ALBUMS</a></li>
+        </ul>
+    </nav>
+
+
+
+    <!-- PARTICLES -->
+    <div class="particle-wrapper"></div>
+    <script>
+        const wrapper = document.querySelector('.particle-wrapper');
+        for (let i = 0; i < 200; i++) {
+            const p = document.createElement('div');
+            p.classList.add('particle');
+            p.style.left = `${Math.random() * 100}%`;
+            p.style.top = `${Math.random() * 100}%`;
+            p.style.animationDuration = `${5 + Math.random() * 10}s`;
+            p.style.animationDelay = `${Math.random() * 5}s`;
+            wrapper.appendChild(p);
+        }
+    </script>
+
+    <!-- ALBUM IMAGE (same as Death Trap) -->
+    <div class="album-info">
+        <img src="deathtrapcover.jpg" alt="Death Trap Album Cover" class="album-cover">
+        <div class="album-details">
+            <p class="album-label">DEATH TRAP</p>
+            <h1 class="album-title">OTHER SIDE</h1>
+            <p class="album-meta">That_Vegan_Dog • 2025 </p>
+        </div>
+    </div>
+
+    <!-- TRACK 1 INFO + VERSES -->
+    <div class="track1-content">
+        <p class="track1-title">OTHER SIDE</p>
+        <div class="collective-verses">
+            <p class="verse1">Another loss, but I’m sure it ain’t the last <br>
+                Do they think the good is there to hide the past <br>
+                Every day I try to look right in the eyes <br>
+                Why don’t I see what lies behind the other side
+
+
+
+                <br>
+
+            </p>
+            <p class="verse">Why don’t I care about the ones who seem so blessed <br>
+                I neglect the truth and leave out all the rest <br>
+                Another one is gone beyond and all I feel <br>
+                Remorse, regret, what isn’t meant to be
+
+
+                <br>
+            </p>
+            <p class="verse">My pride resides and it won’t show what’s true <br>
+                Call out the world but I think I’m ad cruel <br>
+                My hands are just too red to call for kind <br>
+                Promise I’ll look for the other side
+
+
+
+
+                <br>
+            </p>
+            <p class="verse">In a haze that forms and takes away a smile <br>
+                Yet again, when I thought everything was fine <br>
+                This time I know that I’m the one at fault <br>
+                A cloud of guilt that builds beside the storm
+
+
+
+                <br>
+            </p>
+            <p class="verse">Why am I the one I hated most <br>
+                Will I decide to help the ones at low <br>
+                Remembering that it’s the final time <br>
+                But I cross a line behind the other side
+
+
+
+
+                <br>
+            </p>
+        </div>
+    </div>
+
+    <!-- FOOTER: SAME AS DEATHTRAP -->
+    <footer class="site-footer">
+        <p>© 2025 That_Vegan_Dog</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
