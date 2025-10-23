@@ -4,7 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
     font-family: 'Share Tech Mono', monospace;
 }
 
@@ -188,9 +188,17 @@ body {
     color: #bbbbbb;
     text-align: justify;
     font-size: 15px;
-
 }
 
+.versespecial {
+   color: #bbbbbb;
+   text-align: justify;
+   font-size: 15px;
+   font-family: "Hind", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+}
+   
 .collective-verses {
     margin: 60px auto 100px;
     margin-top: 0px;
@@ -205,4 +213,5 @@ body {
     color: #888;
     font-family: 'Share Tech Mono', monospace;
     font-size: 14px;
+
 }
