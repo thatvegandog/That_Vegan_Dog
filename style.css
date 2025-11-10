@@ -48,7 +48,6 @@ body {
     z-index: 1000;
     box-sizing: border-box;
     overflow-x: hidden;
-    /* ✅ Prevents overflow to the right */
 }
 
 .logo {
@@ -57,20 +56,16 @@ body {
     color: #00ffff;
     letter-spacing: 2px;
     text-shadow: 0 0 8px #00ffff;
-    white-space: nowrap;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    /* ✅ Keeps layout responsive without overflow */
     gap: 20px;
+    justify-content: flex-end;
     margin: 0;
     padding: 0;
-    justify-content: flex-end;
-    max-width: 100%;
-    box-sizing: border-box;
 }
 
 .nav-links li a {
@@ -305,3 +300,4 @@ body {
     }
 
 }
+
