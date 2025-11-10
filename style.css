@@ -107,20 +107,6 @@ body {
     transform-origin: left;
 }
 
-/* ================= RESPONSIVE NAV ================= */
-@media (max-width: 600px) {
-    .nav-links {
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 10px;
-    }
-
-    .futuristic-nav {
-        padding: 15px 20px;
-    }
-}
-
-
 /* ================= ALBUM SECTION (HOME PAGE) ================= */
 .album-section {
     display: flex;
@@ -317,4 +303,5 @@ body {
         transform: translateY(-100vh) scale(0.5);
         opacity: 0;
     }
+
 }
